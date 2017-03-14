@@ -1,0 +1,39 @@
+<?php
+/**
+ * @var Model_User $user
+ */
+$user = $view->getParam('user');
+?>
+
+<?php if($user) : ?>
+    <div id="updateFormDiv">
+        <form name="updateForm" id="updateForm" method="POST" autocomplete="off">
+            <input type="text" name="userId" class ='hide' value="<?php echo $user->id; ?>"/>
+            <label for='email'>Email:</label>
+            <input type="text" name="email" maxlength="20" value="<?php echo $user->email; ?>" disabled /><br />
+            <label for='first_name'>First Name:</label>
+            <input type="text" name="first_name" maxlength="30" value="<?php echo $user->first_name; ?>"/><br />
+            <label for='last_name'>Last Name:</label>
+            <input type="text" name="last_name" maxlength="30" value="<?php echo $user->last_name; ?>"/><br />
+            <label for='year'>Year:</label>
+            <input type="text" name="year" maxlength="30" value="<?php echo $user->year; ?>"/><br />
+<!--            <label for='skills'>Skills:</label>
+            <select id="select" name="hero[]">
+                <option selected disabled>Chouse skills</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="PHP">PHP</option>
+                <option value="Java Script">Java Script</option>
+                <option value="Java">Java</option>
+            </select><br />-->
+            <label for='skills'>Skills:</label>
+            <input type="text" name="skills" maxlength="30" value="<?php echo $user->skills; ?>"/><br />
+            <label for='role_id' <?php if($userRoleId != Model_User::ROLE_ADMIN) { echo 'class="hide"'; } ?>>Role id:</label>
+            <input type="text" name="role_id" maxlength="30" <?php if($userRoleId != Model_User::ROLE_ADMIN) { echo 'class="hide"'; } ?>  value="<?php echo $user->role_id; ?>"/><br />
+            <a href="/User/changePassword/id/<?php echo $user->id; ?>" id='changePassword' <?php if(($userId != $user->id)) { echo 'class = "hide"'; } ?> >Сменить пароль</a></br>
+            <input type="submit" name="update" value="Update" />                
+        </form>
+    </div>
+<?php  elseif($view->getParam('error')) : ?>
+    <div class="error"><?php echo $view->getParam('error')?></div>
+<?php endif; ?>
