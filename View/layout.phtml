@@ -11,14 +11,14 @@
 <html>
     <head>
         <title>Project</title>
-        <link rel="stylesheet" type="text/css" href="/Css/style.css" />
-        <link rel="stylesheet" type="text/css" href="/Css/jquery-ui.css" />
-        <link rel="stylesheet" type="text/css" href="/Css/cmxform.css" />
-        <script type="text/javascript" src="/js/jquery.js"></script>
+        <link rel="stylesheet" type="text/css" href="Css/style.css" />
+        <link rel="stylesheet" type="text/css" href="Css/jquery-ui.css" />
+        <link rel="stylesheet" type="text/css" href="Css/cmxform.css" />
+        <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script type="text/javascript" src="/js/jquery.validate.min.js"></script>
-        <script type="text/javascript" src="/js/validateForm.js"></script>
-        <script type="text/javascript" src="/js/authorize.js?915222"></script>
+        <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="js/validateForm.js"></script>
+        <script type="text/javascript" src="js/authorize.js?915222"></script>
 
 
     </head>    
@@ -26,7 +26,7 @@
         
         <div id="error"><?php echo !empty($errorMessage) ? $errorMessage : ''; ?></div>
 
-        <div id="userEmail"><?php echo !empty($userId) ? 'You login as: ' : '';?><a href="<?php  echo !empty($userId)? '/user/profile/id/'.$userId : '';?>"><?php  echo !empty($userEmail) ? $userEmail : ''; ?></a></div>
+        <div id="userEmail"><?php echo !empty($userId) ? 'You login as: ' : '';?><a href="#"><?php  echo !empty($userEmail) ? $userEmail : ''; ?></a></div>
         <div id="userId"><a id="logout" href="#"><?php echo !empty($userId) ? 'Exit' : ''?></a></div>
 
         <div  id="loginFormDiv"<?php if(!empty($userId)) { echo 'class = "hide"'; } ?>>

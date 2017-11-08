@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    
     $('#registerForm').on('click', 'input[name=register]', function(e){
         e.preventDefault();
 
@@ -12,7 +11,7 @@ $(document).ready(function() {
             });
             // console.log(registerdata);
             $.post(
-                '/authorize/register',
+                location.pathname + '/authorize/register',
                 {
                     registerdata: registerdata
                 },
@@ -22,7 +21,7 @@ $(document).ready(function() {
                         $('#error').html(data.error);
                     }
                     else {
-                        $('#userEmail').html('You login as: ' + '<a href="/user/profile/id/' + data.id + '">' + data.email + '</a>');
+                        $('#userEmail').html('You login as: <a href="#">'  + data.email +'</a>' );
                         $('#userId').html('<a id="logout" href="#">Exit</a>');
                         $('#loginFormDiv').hide();
                         $('#registerFormDiv').hide();
@@ -45,7 +44,7 @@ $(document).ready(function() {
         });
         console.log(logindata);
         $.post(
-            '/authorize/login',
+            location.pathname + '/authorize/login',
             {
                 logindata : logindata
             },
@@ -54,7 +53,7 @@ $(document).ready(function() {
                     $('#error').html(data.error);
                 }
                 else {
-                    $('#userEmail').html('You login as: ' + '<a href="/user/profile/id/'+ data.id + '">' + data.email + '</a>');
+                    $('#userEmail').html('You login as: <a href="#">'  + data.email +'</a>' );
                     $('#userId').html('<a id="logout" href="#">Exit</a>');
                     $('#loginFormDiv').hide();
                     $('#registerFormDiv').hide()
@@ -69,7 +68,7 @@ $(document).ready(function() {
     $('body').on('click', '#logout', function(e) {
         e.preventDefault();
         $.post(
-            '/authorize/exit/',
+            location.pathname + '/authorize/exit/',
             {
 
             },

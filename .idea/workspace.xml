@@ -2,48 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="862774ea-ef46-49b2-a454-8d32b3127c80" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Controller/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Css/cmxform.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Css/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.validate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/validateForm.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/Controller/Admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/Controller/Authorize.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/Controller/Company.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/Controller/Index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/Controller/Product.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/Controller/User.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/Css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/Model/Admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/Model/Db/Table/Admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/Model/Db/Table/User.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/Model/User.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/System/Controller.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/System/Db/Table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/System/Exception.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/System/Registry.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/System/Router.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/System/View.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/View/Admin/createUser.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/View/Admin/index.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/View/Admin/user.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/View/Product/index.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/View/User/changePassword.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/View/User/profile.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/View/layout.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/js/authorize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/js/create.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/js/update.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/nbproject/private/private.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/nbproject/private/private.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/nbproject/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pasko.com/nbproject/project.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pasko.com/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/View/layout.phtml" afterPath="$PROJECT_DIR$/View/layout.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/authorize.js" afterPath="$PROJECT_DIR$/js/authorize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/validateForm.js" afterPath="$PROJECT_DIR$/js/validateForm.js" />
     </list>
     <ignored path="public_html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,11 +29,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="authorize.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/authorize.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Authorize.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controller/Authorize.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validateForm.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/validateForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -85,21 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.phtml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="layout.phtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/View/layout.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="68" selection-start-line="0" selection-start-column="68" selection-end-line="0" selection-end-column="68" />
+            <state relative-caret-position="420">
+              <caret line="28" column="91" selection-start-line="28" selection-start-column="91" selection-end-line="28" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -118,7 +92,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
+            <state relative-caret-position="870">
               <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
               <folding />
             </state>
@@ -135,23 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Model/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1408">
-              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
-              <folding>
-                <marker date="1510136811155" expanded="true" signature="3983:4069" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="28" />
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -160,8 +122,8 @@
       <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -190,14 +152,21 @@
         <option value="$PROJECT_DIR$/Css/style.css" />
         <option value="$PROJECT_DIR$/js/validateForm.js" />
         <option value="$PROJECT_DIR$/database.sql" />
-        <option value="$PROJECT_DIR$/js/authorize.js" />
         <option value="$PROJECT_DIR$/Controller/Authorize.php" />
         <option value="$PROJECT_DIR$/Controller/Index.php" />
         <option value="$PROJECT_DIR$/Controller/Company.php" />
         <option value="$PROJECT_DIR$/View/layout.phtml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/Model/User.php" />
+        <option value="$PROJECT_DIR$/site/View/layout.phtml" />
+        <option value="$PROJECT_DIR$/site/test/.htaccess" />
+        <option value="$PROJECT_DIR$/site/test/View/layout.phtml" />
+        <option value="$PROJECT_DIR$/site/test/js/authorize.js" />
+        <option value="$PROJECT_DIR$/site/ggg/adssad/js/authorize.js" />
+        <option value="$PROJECT_DIR$/site/ggg/adssad/View/layout.phtml" />
+        <option value="$PROJECT_DIR$/site/ggg/adssad/js/validateForm.js" />
+        <option value="$PROJECT_DIR$/js/authorize.js" />
+        <option value="$PROJECT_DIR$/config.xml" />
       </list>
     </option>
   </component>
@@ -260,6 +229,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="System" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -279,6 +262,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/site/ggg/adssad" />
+      <recent name="$PROJECT_DIR$/site" />
+      <recent name="$PROJECT_DIR$/site/test" />
     </key>
   </component>
   <component name="RunManager">
@@ -330,12 +316,12 @@
       <workItem from="1509890413964" duration="37000" />
       <workItem from="1509892013269" duration="5326000" />
       <workItem from="1509957069232" duration="36109000" />
-      <workItem from="1510129689567" duration="6755000" />
+      <workItem from="1510129689567" duration="11801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49979000" />
+    <option name="totallyTimeSpent" value="55025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -461,6 +447,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-45">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -497,26 +484,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/validateForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="20" selection-start-line="47" selection-start-column="19" selection-end-line="49" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/View/authorize.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/authorize.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1017">
-          <caret line="89" column="83" selection-start-line="89" selection-start-column="83" selection-end-line="89" selection-end-column="83" />
           <folding />
         </state>
       </provider>
@@ -615,14 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/Authorize.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/View/User/profile.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -636,6 +599,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="68" selection-start-line="0" selection-start-column="68" selection-end-line="0" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1138">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+          <folding>
+            <marker date="1510136811155" expanded="true" signature="3983:4069" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -655,17 +636,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/Controller/Authorize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/validateForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/authorize.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="68" selection-start-line="0" selection-start-column="68" selection-end-line="0" selection-end-column="68" />
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
+        <state relative-caret-position="870">
           <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
           <folding />
         </state>
@@ -679,37 +676,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/View/layout.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="28" column="91" selection-start-line="28" selection-start-column="91" selection-end-line="28" selection-end-column="91" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1408">
-          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
-          <folding>
-            <marker date="1510136811155" expanded="true" signature="3983:4069" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>

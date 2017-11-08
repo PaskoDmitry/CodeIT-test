@@ -42,12 +42,6 @@ $(document).ready(function() {
                 agree: {
                     required: true
                 }
-            },
-
-            messages : {
-                // agree: {
-                //     required: ' '
-                // }
             }
         });
     });
