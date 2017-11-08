@@ -1,0 +1,50 @@
+.error {
+    color:red;
+    /*font-size: 32px;*/
+}
+#error {
+    width:200px;
+    margin:0 auto;
+    color:red;
+}
+#userEmail {
+    width:300px;
+    margin-left:70%;
+}
+#userId {
+    width:100px;
+    margin-left:80%;
+}
+#loginFormDiv {
+    /*width:200px;*/
+    margin-left:50%;
+    /*text-align: center;*/
+}
+#registerFormDiv {
+
+    width:245px;
+    margin-left:55%;
+    margin-top:10%;
+    text-align: right;
+}
+.formDiv {
+    /*width:200px;*/
+}
+.hide {
+    display: none;
+}
+#select {
+    width:150px;
+    text-align: right;
+}
+#updateFormDiv {
+    width:350px;
+    margin-left:30%;
+    text-align: right;
+}
+#createFormDiv {
+    width:350px;
+    margin-left:30%;
+    text-align: right;
+}
+

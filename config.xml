@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setting>
+    <db>
+        <host>127.0.0.1</host>
+        <dbname>test_database</dbname>
+        <username>root</username>
+        <password>е9вти2ьй94</password>
+    </db>
+</setting>

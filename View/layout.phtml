@@ -1,0 +1,77 @@
+<?php 
+    $userId = $controller->getUserId();
+
+    if($userId) {
+        $userModel      = Model_User::getById($userId);
+        $userEmail      = $userModel->email;
+    }
+    $country        = Model_User::getCountry();
+
+?>
+<html>
+    <head>
+        <title>Project</title>
+        <link rel="stylesheet" type="text/css" href="/Css/style.css" />
+        <link rel="stylesheet" type="text/css" href="/Css/jquery-ui.css" />
+        <link rel="stylesheet" type="text/css" href="/Css/cmxform.css" />
+        <script type="text/javascript" src="/js/jquery.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script type="text/javascript" src="/js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="/js/validateForm.js"></script>
+        <script type="text/javascript" src="/js/authorize.js?915222"></script>
+
+
+    </head>    
+    <body>  
+        
+        <div id="error"><?php echo !empty($errorMessage) ? $errorMessage : ''; ?></div>
+
+        <div id="userEmail"><?php echo !empty($userId) ? 'You login as: ' : '';?><a href="<?php  echo !empty($userId)? '/user/profile/id/'.$userId : '';?>"><?php  echo !empty($userEmail) ? $userEmail : ''; ?></a></div>
+        <div id="userId"><a id="logout" href="#"><?php echo !empty($userId) ? 'Exit' : ''?></a></div>
+
+        <div  id="loginFormDiv"<?php if(!empty($userId)) { echo 'class = "hide"'; } ?>>
+            <form name="authorize" id="loginForm" method="POST" autocomplete="off">
+                    <label for="emailOrLogin">Email or login</label>
+                    <input placeholder="Email or login" type="text" name="emailOrLogin" maxlength="20" />
+                    <label for="password">Password</label>
+                    <input placeholder="Password" type="password" name="password" maxlength="30" /><br />
+                <input type="submit" name="loginbut" value="Log in" />
+                <p></p>
+            </form>
+        </div>
+        <br />
+        <div  id="registerFormDiv"<?php if(!empty($userId)) { echo 'class = "hide"'; } ?>>
+            <div><h2>Sign Up</h2></div>
+            <form name="register" id="registerForm" method="POST" autocomplete="off">
+                <label for='email'>Email:</label>
+                <input placeholder="Email" type="text" name="email" maxlength="20" /><br />
+                <label for='login'>Login:</label>
+                <input placeholder="Login" type="text" name="login" maxlength="20" /><br />
+                <label for='real Name'>Name:</label>
+                <input placeholder="Real Name" type="text" name="name" maxlength="20" /><br />
+                <label for='date'>Birthday:</label>
+                <input placeholder="Date" type="text" name="date" id="date" maxlength="20" /><br />
+                <label for='password'>Password:</label>
+                <input placeholder="Password" type="password" name="password" maxlength="30" /><br />
+                <label for='skills'>Country:</label>
+                <select id="select" name="country" value="">
+                    <option selected disabled value="Chouse country">Chouse country</option>
+                    <?php foreach ($country as $value) : ?>{
+                        echo '<option value="<?php echo $value->country_name ?>"><?php echo $value->country_name ?></option>';
+                    }?>
+                    <?php endforeach; ?>
+                </select><br />
+                <input id="agree" type="checkbox" name="agree" value="1" /><label for="agree">I agree with terms and conditions</label><br />
+                <input type="submit" name="register" value="Register" />
+            </form>
+
+        </div>
+        <br />
+        <?php
+//    if(file_exists($viewFileName)) {
+//        include $viewFileName;
+//    }
+    ?>
+    </body>
+    
+</html>
